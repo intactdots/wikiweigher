@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Wikiweigher"
+  },
+  "paneRanking": {
+    "message": "ランキング"
+  },
+  "paneDisplay": {
+    "message": "表示"
+  },
+  "paneReading": {
+    "message": "読む言語"
+  },
+  "paneSupport": {
+    "message": "サポート"
+  },
+  "paneAbout": {
+    "message": "このアプリについて"
+  },
+  "presetBalanced": {
+    "message": "バランス"
+  },
+  "presetComplete": {
+    "message": "網羅性"
+  },
+  "presetSourced": {
+    "message": "出典重視"
+  },
+  "presetMostComplete": {
+    "message": "最も充実"
+  },
+  "presetBestSourced": {
+    "message": "出典が最も多い"
+  },
+  "completeness": {
+    "message": "解析の詳しさ"
+  },
+  "depthEssential": {
+    "message": "最小限"
+  },
+  "depthStandard": {
+    "message": "標準"
+  },
+  "depthThorough": {
+    "message": "詳細"
+  },
+  "fineWeight": {
+    "message": "詳細な重み"
+  },
+  "axisSources": {
+    "message": "出典"
+  },
+  "axisDepth": {
+    "message": "分量"
+  },
+  "theme": {
+    "message": "テーマ"
+  },
+  "themeAuto": {
+    "message": "自動"
+  },
+  "themeLight": {
+    "message": "ライト"
+  },
+  "themeDark": {
+    "message": "ダーク"
+  },
+  "accentColor": {
+    "message": "アクセントカラー"
+  },
+  "cardLanguage": {
+    "message": "カードの言語"
+  },
+  "languagesYouRead": {
+    "message": "あなたが読む言語"
+  },
+  "startMinimized": {
+    "message": "最小化して開始"
+  },
+  "showOnArticles": {
+    "message": "ウィキペディアの記事で表示"
+  },
+  "allSettings": {
+    "message": "すべての設定"
+  },
+  "reportBug": {
+    "message": "不具合を報告"
+  },
+  "copy": {
+    "message": "コピー"
+  },
+  "download": {
+    "message": "ダウンロード"
+  },
+  "refresh": {
+    "message": "更新"
+  },
+  "copied": {
+    "message": "コピーしました"
+  },
+  "lastRun": {
+    "message": "最後の実行"
+  },
+  "recentErrors": {
+    "message": "最近のエラー"
+  },
+  "settingsData": {
+    "message": "設定データ"
+  },
+  "exportSettings": {
+    "message": "設定を書き出す"
+  },
+  "importSettings": {
+    "message": "設定を読み込む"
+  },
+  "resetDefaults": {
+    "message": "初期設定に戻す"
+  },
+  "rateWikiweigher": {
+    "message": "Wikiweigher を評価"
+  },
+  "rateIt": {
+    "message": "評価する"
+  },
+  "sourceAndIssues": {
+    "message": "ソースと課題"
+  },
+  "whatsNew": {
+    "message": "新着情報"
+  },
+  "whatGetsSent": {
+    "message": "送信される内容"
+  }
+}

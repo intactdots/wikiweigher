@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Wikiweigher"
+  },
+  "paneRanking": {
+    "message": "Xếp hạng"
+  },
+  "paneDisplay": {
+    "message": "Hiển thị"
+  },
+  "paneReading": {
+    "message": "Đọc"
+  },
+  "paneSupport": {
+    "message": "Hỗ trợ"
+  },
+  "paneAbout": {
+    "message": "Giới thiệu"
+  },
+  "presetBalanced": {
+    "message": "Cân bằng"
+  },
+  "presetComplete": {
+    "message": "Đầy đủ"
+  },
+  "presetSourced": {
+    "message": "Nhiều nguồn"
+  },
+  "presetMostComplete": {
+    "message": "Đầy đủ nhất"
+  },
+  "presetBestSourced": {
+    "message": "Nhiều nguồn nhất"
+  },
+  "completeness": {
+    "message": "Mức độ đầy đủ"
+  },
+  "depthEssential": {
+    "message": "Cơ bản"
+  },
+  "depthStandard": {
+    "message": "Tiêu chuẩn"
+  },
+  "depthThorough": {
+    "message": "Kỹ lưỡng"
+  },
+  "fineWeight": {
+    "message": "Trọng số tinh chỉnh"
+  },
+  "axisSources": {
+    "message": "Nguồn"
+  },
+  "axisDepth": {
+    "message": "Độ sâu"
+  },
+  "theme": {
+    "message": "Giao diện"
+  },
+  "themeAuto": {
+    "message": "Tự động"
+  },
+  "themeLight": {
+    "message": "Sáng"
+  },
+  "themeDark": {
+    "message": "Tối"
+  },
+  "accentColor": {
+    "message": "Màu nhấn"
+  },
+  "cardLanguage": {
+    "message": "Ngôn ngữ thẻ"
+  },
+  "languagesYouRead": {
+    "message": "Ngôn ngữ bạn đọc"
+  },
+  "startMinimized": {
+    "message": "Khởi động thu nhỏ"
+  },
+  "showOnArticles": {
+    "message": "Hiện trên bài viết Wikipedia"
+  },
+  "allSettings": {
+    "message": "Tất cả cài đặt"
+  },
+  "reportBug": {
+    "message": "Báo lỗi"
+  },
+  "copy": {
+    "message": "Sao chép"
+  },
+  "download": {
+    "message": "Tải xuống"
+  },
+  "refresh": {
+    "message": "Làm mới"
+  },
+  "copied": {
+    "message": "Đã sao chép"
+  },
+  "lastRun": {
+    "message": "Lần chạy gần nhất"
+  },
+  "recentErrors": {
+    "message": "Lỗi gần đây"
+  },
+  "settingsData": {
+    "message": "Dữ liệu cài đặt"
+  },
+  "exportSettings": {
+    "message": "Xuất cài đặt"
+  },
+  "importSettings": {
+    "message": "Nhập cài đặt"
+  },
+  "resetDefaults": {
+    "message": "Đặt lại mặc định"
+  },
+  "rateWikiweigher": {
+    "message": "Đánh giá Wikiweigher"
+  },
+  "rateIt": {
+    "message": "Đánh giá"
+  },
+  "sourceAndIssues": {
+    "message": "Mã nguồn và vấn đề"
+  },
+  "whatsNew": {
+    "message": "Có gì mới"
+  },
+  "whatGetsSent": {
+    "message": "Những gì được gửi"
+  }
+}

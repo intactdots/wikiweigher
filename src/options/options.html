@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wikiweigher settings</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <div class="shell">
+    <nav class="rail" role="tablist" aria-label="Settings sections">
+      <img class="brand" src="../../icons/icon48.png" alt="">
+      <button class="rb" type="button" role="tab" aria-selected="false" aria-controls="pane-ranking" id="tab-ranking" data-pane="ranking">
+        <span class="rbi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/></svg></span>
+        <span class="rbl" data-i18n="paneRanking">Ranking</span>
+      </button>
+      <button class="rb" type="button" role="tab" aria-selected="false" aria-controls="pane-display" id="tab-display" data-pane="display">
+        <span class="rbi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="8.5" cy="9" r="1.2" fill="currentColor" stroke="none"/><circle cx="15.5" cy="9" r="1.2" fill="currentColor" stroke="none"/><circle cx="9" cy="15" r="1.2" fill="currentColor" stroke="none"/><path d="M12 12h6"/></svg></span>
+        <span class="rbl" data-i18n="paneDisplay">Display</span>
+      </button>
+      <button class="rb" type="button" role="tab" aria-selected="false" aria-controls="pane-reading" id="tab-reading" data-pane="reading">
+        <span class="rbi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.6 2.6 15.4 0 18M12 3c-2.6 2.6-2.6 15.4 0 18"/></svg></span>
+        <span class="rbl" data-i18n="paneReading">Reading</span>
+      </button>
+      <button class="rb" type="button" role="tab" aria-selected="false" aria-controls="pane-diag" id="tab-diag" data-pane="diag">
+        <span class="rbi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l2 6 4-14 2 8h6"/></svg></span>
+        <span class="rbl" data-i18n="paneSupport">Support</span>
+      </button>
+      <button class="rb" type="button" role="tab" aria-selected="false" aria-controls="pane-about" id="tab-about" data-pane="about">
+        <span class="rbi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v6"/><circle cx="12" cy="7.5" r="0.5" fill="currentColor"/></svg></span>
+        <span class="rbl" data-i18n="paneAbout">About</span>
+      </button>
+    </nav>
+
+    <main class="pane">
+      <section data-view="ranking" id="pane-ranking" role="tabpanel" aria-labelledby="tab-ranking" tabindex="0">
+        <div class="pane-hd"><div><div class="tt" data-i18n="paneRanking">Ranking</div><div class="ss" data-i18n="ssRanking">How Wikiweigher decides the best language.</div></div></div>
+        <div class="seg big" id="presets" role="group">
+          <button type="button" data-p="balanced"><b data-i18n="presetBalanced">Balanced</b><i data-i18n="presetBalancedNote">50% depth / 50% sources</i></button>
+          <button type="button" data-p="complete"><b data-i18n="presetMostComplete">Most complete</b><i data-i18n="presetCompleteNote">75% depth / 25% sources</i></button>
+          <button type="button" data-p="sourced"><b data-i18n="presetBestSourced">Best sourced</b><i data-i18n="presetSourcedNote">25% depth / 75% sources</i></button>
+        </div>
+        <div class="card">
+          <div class="vr"><span class="vn" data-i18n="fineWeight">Fine weight</span><span class="wl" id="weight-label"></span></div>
+          <div class="vr"><span class="sub2" data-i18n="axisSources">Sources</span><input type="range" id="weight" data-i18n-attr="aria-label:weightAria" min="0" max="1" step="0.05"><span class="sub2" data-i18n="axisDepth">Depth</span></div>
+        </div>
+        <div class="card" style="margin-top:14px">
+          <div class="vr"><span class="vn"><span data-i18n="completeness">Completeness</span><br><span class="fnote" data-i18n="noteCompleteness">How many languages get exact word and reference counts (6 / 12 / 24). More is more thorough but slower. Changing it re-ranks the open article right away.</span></span></div>
+          <div class="seg" id="analyze" role="group">
+            <button type="button" data-a="6" data-i18n="depthEssential">Essential</button>
+            <button type="button" data-a="12" data-i18n="depthStandard">Standard</button>
+            <button type="button" data-a="24" data-i18n="depthThorough">Thorough</button>
+          </div>
+        </div>
+      </section>
+
+      <section data-view="display" id="pane-display" role="tabpanel" aria-labelledby="tab-display" tabindex="0" hidden>
+        <div class="pane-hd"><div><div class="tt" data-i18n="paneDisplay">Display</div><div class="ss" data-i18n="ssDisplay">Theme, accent color, and the card's language.</div></div></div>
+        <div class="card">
+          <div class="vr"><span class="vn" data-i18n="theme">Theme</span>
+            <div class="thseg" id="themes" role="group" aria-label="Theme" data-i18n-attr="aria-label:theme">
+              <button type="button" class="thb" data-t="auto" data-i18n="themeAuto">Auto</button>
+              <button type="button" class="thb" data-t="light" data-i18n="themeLight">Light</button>
+              <button type="button" class="thb" data-t="dark" data-i18n="themeDark">Dark</button>
+            </div>
+          </div>
+          <div class="vr"><span class="vn" data-i18n="accentColor">Accent color</span><div class="accsw" id="accents" role="group" aria-label="Accent color" data-i18n-attr="aria-label:accentColor"></div></div>
+        </div>
+        <div class="card" style="margin-top:14px">
+          <div class="vr"><span class="vn"><span data-i18n="cardLanguage">Card language</span><br><span class="fnote" data-i18n="noteCardLanguage">Auto uses the article's language for the card's own labels.</span></span></div>
+          <div class="vr"><select id="cardLang" class="npsel">
+            <option value="auto" data-i18n="cardLangAuto">Auto - the article's language</option>
+            <option value="en">English</option><option value="de">Deutsch</option><option value="fr">Français</option><option value="es">Español</option><option value="it">Italiano</option><option value="pt">Português</option><option value="nl">Nederlands</option><option value="sv">Svenska</option><option value="ru">Русский</option><option value="uk">Українська</option><option value="pl">Polski</option><option value="tr">Türkçe</option><option value="id">Indonesia</option><option value="vi">Tiếng Việt</option><option value="ja">日本語</option><option value="zh">中文</option><option value="ko">한국어</option><option value="ar">العربية</option><option value="fa">فارسی</option><option value="hi">हिन्दी</option>
+          </select></div>
+        </div>
+      </section>
+
+      <section data-view="reading" id="pane-reading" role="tabpanel" aria-labelledby="tab-reading" tabindex="0" hidden>
+        <div class="pane-hd"><div><div class="tt" data-i18n="paneReading">Reading</div><div class="ss" data-i18n="ssReading">Languages you read, and where the card shows.</div></div></div>
+        <div class="card">
+          <div class="vr"><span class="vn"><span data-i18n="languagesYouRead">Languages you read</span><br><span class="fnote" data-i18n="noteLanguagesYouRead">Comma-separated codes. If the best language is not one you read, the card offers a translate link. On articles with many language versions these codes also help decide which get measured. Left empty, your browser's languages are used.</span></span></div>
+          <div class="vr"><input type="text" id="languages" class="np" placeholder="en, fr, de"></div>
+        </div>
+        <div class="card" style="margin-top:14px">
+          <label class="vr toggle-row"><span class="vn" data-i18n="showOnArticles">Show on Wikipedia articles</span><input type="checkbox" id="enabled"><span class="sw"></span></label>
+          <label class="vr toggle-row"><span class="vn" data-i18n="startMinimized">Start minimized</span><input type="checkbox" id="startMinimized"><span class="sw"></span></label>
+          <div class="vr"><span class="fnote" data-i18n="noteDrag">Drag the card by its header to move it - it remembers where you left it.</span></div>
+        </div>
+      </section>
+
+      <section data-view="diag" id="pane-diag" role="tabpanel" aria-labelledby="tab-diag" tabindex="0" hidden>
+        <div class="pane-hd"><div><div class="tt" data-i18n="paneSupport">Support</div><div class="ss" data-i18n="ssSupport">What happened on the last run, and how to report a problem.</div></div></div>
+
+        <div class="dsec-t" data-i18n="lastRun">Last run</div>
+        <div class="card tight" id="health"></div>
+        <div class="dsec-t" id="errors-title" hidden data-i18n="recentErrors">Recent errors</div>
+        <div id="errors"></div>
+
+        <div class="card rep">
+          <div class="bughd">
+            <span class="bugico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 7a3 3 0 0 1 6 0"/><rect x="7" y="7.5" width="10" height="12" rx="5"/><path d="M7 12H3.5M20.5 12H17M7.6 16.8 4.6 18.6M19.4 18.6l-3-1.8M7.6 8.4 4.9 6.6M19.1 6.6l-2.7 1.8"/></svg></span>
+            <span class="bugtxt"><b data-i18n="reportBug">Report a bug</b><i data-i18n="noteReportPick">Two ways in. Both send the same details, already filled in.</i></span>
+          </div>
+          <div class="bugways">
+            <button class="bugway" id="reportOpen" type="button">
+              <b data-i18n="wayGithub">Open a GitHub issue</b>
+              <i data-i18n="wayGithubNote">Needs a GitHub account. Public, and you get notified when it is fixed.</i>
+            </button>
+            <button class="bugway" id="reportEmail" type="button">
+              <b data-i18n="wayEmail">Email us</b>
+              <i data-i18n="wayEmailNote">No account needed. Opens your mail app with the report written for you.</i>
+            </button>
+          </div>
+          <details class="wgs">
+            <summary data-i18n="whatGetsSent">What gets sent</summary>
+            <pre id="reportBody" class="ab-log" aria-label="Report contents"></pre>
+            <div class="row2">
+              <button class="np ghost" id="diagCopy" type="button" data-i18n="copy">Copy</button>
+              <button class="np ghost" id="reportDownload" type="button" data-i18n="download">Download</button>
+              <button class="np ghost" id="diagRefresh" type="button" data-i18n="refresh">Refresh</button>
+              <span class="got" id="copied" hidden data-i18n="copied">Copied</span>
+            </div>
+            <div class="out" id="diagNote" data-i18n="noteReportPrivacy">The wiki and the article title, never the full page address or your history.</div>
+          </details>
+        </div>
+
+        <div class="dsec-t" data-i18n="settingsData">Settings data</div>
+        <div class="row2">
+          <button class="np ghost" id="setExport" type="button" data-i18n="exportSettings">Export settings</button>
+          <button class="np ghost" id="setImport" type="button" data-i18n="importSettings">Import settings</button>
+          <button class="np ghost" id="setReset" type="button" data-i18n="resetDefaults">Reset to defaults</button>
+          <input type="file" id="setFile" accept="application/json,.json" hidden>
+          <span class="got" id="dataMsg" hidden></span>
+        </div>
+        <div class="out" data-i18n="noteSettingsData">Import checks every value before applying it.</div>
+      </section>
+
+      <section data-view="about" id="pane-about" role="tabpanel" aria-labelledby="tab-about" tabindex="0" hidden>
+        <div class="pane-hd"><div><div class="tt" data-i18n="paneAbout">About</div><div class="ss" data-i18n="ssAbout">Version, links, and what's new.</div></div></div>
+
+        <div class="brandhero">
+          <svg class="bh-motif" viewBox="0 0 100 100" aria-hidden="true"><circle cx="66" cy="26" r="9"/><circle cx="52" cy="50" r="9"/><circle cx="80" cy="50" r="9"/></svg>
+          <span class="bh-k" data-i18n="madeBy">Made by</span>
+          <img class="bh-lockup lt" src="../../icons/intactdots-lockup-light.svg" alt="Intactdots">
+          <img class="bh-lockup dk" src="../../icons/intactdots-lockup-dark.svg" alt="Intactdots">
+        </div>
+
+        <div class="card" style="margin-top:14px">
+          <div class="vr"><img src="../../icons/icon48.png" class="ab-logo" alt=""><div><div class="ab-name">Wikiweigher <span id="ab-version"></span></div><div class="sub2" data-i18n="aboutBlurb">Ranks the same Wikipedia article across its languages and recommends the most complete one to read.</div></div></div>
+        </div>
+        <div class="card" style="margin-top:14px">
+          <div class="vr"><span class="vn"><span data-i18n="rateWikiweigher">Rate Wikiweigher</span><br><span class="fnote" data-i18n="noteRate">A quick review on the Chrome Web Store helps others find it.</span></span><a class="ab-link" id="ab-rate" target="_blank" rel="noopener"><span aria-hidden="true">★</span> <span data-i18n="rateIt">Rate it</span></a></div>
+          <div class="vr"><span class="vn" data-i18n="sourceAndIssues">Source and issues</span><a class="ab-link" id="ab-source" target="_blank" rel="noopener">GitHub</a></div>
+        </div>
+        <div class="card" style="margin-top:14px">
+          <div class="vr"><span class="vn" data-i18n="whatsNew">What's new</span></div>
+          <pre id="ab-changelog" class="ab-log">Loading…</pre>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="../ui/boot.js"></script>
+  <script type="module" src="options.js"></script>
+</body>
+</html>

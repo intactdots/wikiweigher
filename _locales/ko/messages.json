@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Wikiweigher"
+  },
+  "paneRanking": {
+    "message": "순위"
+  },
+  "paneDisplay": {
+    "message": "표시"
+  },
+  "paneReading": {
+    "message": "읽기"
+  },
+  "paneSupport": {
+    "message": "지원"
+  },
+  "paneAbout": {
+    "message": "정보"
+  },
+  "presetBalanced": {
+    "message": "균형"
+  },
+  "presetComplete": {
+    "message": "완성도"
+  },
+  "presetSourced": {
+    "message": "출처"
+  },
+  "presetMostComplete": {
+    "message": "가장 완전한"
+  },
+  "presetBestSourced": {
+    "message": "출처가 가장 많은"
+  },
+  "completeness": {
+    "message": "분석 범위"
+  },
+  "depthEssential": {
+    "message": "기본"
+  },
+  "depthStandard": {
+    "message": "표준"
+  },
+  "depthThorough": {
+    "message": "상세"
+  },
+  "fineWeight": {
+    "message": "세부 가중치"
+  },
+  "axisSources": {
+    "message": "출처"
+  },
+  "axisDepth": {
+    "message": "분량"
+  },
+  "theme": {
+    "message": "테마"
+  },
+  "themeAuto": {
+    "message": "자동"
+  },
+  "themeLight": {
+    "message": "밝게"
+  },
+  "themeDark": {
+    "message": "어둡게"
+  },
+  "accentColor": {
+    "message": "강조 색상"
+  },
+  "cardLanguage": {
+    "message": "카드 언어"
+  },
+  "languagesYouRead": {
+    "message": "읽는 언어"
+  },
+  "startMinimized": {
+    "message": "최소화 상태로 시작"
+  },
+  "showOnArticles": {
+    "message": "위키백과 문서에 표시"
+  },
+  "allSettings": {
+    "message": "모든 설정"
+  },
+  "reportBug": {
+    "message": "버그 신고"
+  },
+  "copy": {
+    "message": "복사"
+  },
+  "download": {
+    "message": "다운로드"
+  },
+  "refresh": {
+    "message": "새로 고침"
+  },
+  "copied": {
+    "message": "복사됨"
+  },
+  "lastRun": {
+    "message": "마지막 실행"
+  },
+  "recentErrors": {
+    "message": "최근 오류"
+  },
+  "settingsData": {
+    "message": "설정 데이터"
+  },
+  "exportSettings": {
+    "message": "설정 내보내기"
+  },
+  "importSettings": {
+    "message": "설정 가져오기"
+  },
+  "resetDefaults": {
+    "message": "기본값으로 재설정"
+  },
+  "rateWikiweigher": {
+    "message": "Wikiweigher 평가"
+  },
+  "rateIt": {
+    "message": "평가하기"
+  },
+  "sourceAndIssues": {
+    "message": "소스와 이슈"
+  },
+  "whatsNew": {
+    "message": "새로운 기능"
+  },
+  "whatGetsSent": {
+    "message": "전송되는 내용"
+  }
+}

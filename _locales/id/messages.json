@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Wikiweigher"
+  },
+  "paneRanking": {
+    "message": "Peringkat"
+  },
+  "paneDisplay": {
+    "message": "Tampilan"
+  },
+  "paneReading": {
+    "message": "Membaca"
+  },
+  "paneSupport": {
+    "message": "Dukungan"
+  },
+  "paneAbout": {
+    "message": "Tentang"
+  },
+  "presetBalanced": {
+    "message": "Seimbang"
+  },
+  "presetComplete": {
+    "message": "Lengkap"
+  },
+  "presetSourced": {
+    "message": "Bersumber"
+  },
+  "presetMostComplete": {
+    "message": "Paling lengkap"
+  },
+  "presetBestSourced": {
+    "message": "Sumber terbaik"
+  },
+  "completeness": {
+    "message": "Kelengkapan"
+  },
+  "depthEssential": {
+    "message": "Penting"
+  },
+  "depthStandard": {
+    "message": "Standar"
+  },
+  "depthThorough": {
+    "message": "Menyeluruh"
+  },
+  "fineWeight": {
+    "message": "Bobot halus"
+  },
+  "axisSources": {
+    "message": "Sumber"
+  },
+  "axisDepth": {
+    "message": "Kedalaman"
+  },
+  "theme": {
+    "message": "Tema"
+  },
+  "themeAuto": {
+    "message": "Otomatis"
+  },
+  "themeLight": {
+    "message": "Terang"
+  },
+  "themeDark": {
+    "message": "Gelap"
+  },
+  "accentColor": {
+    "message": "Warna aksen"
+  },
+  "cardLanguage": {
+    "message": "Bahasa kartu"
+  },
+  "languagesYouRead": {
+    "message": "Bahasa yang kamu baca"
+  },
+  "startMinimized": {
+    "message": "Mulai dalam keadaan kecil"
+  },
+  "showOnArticles": {
+    "message": "Tampilkan di artikel Wikipedia"
+  },
+  "allSettings": {
+    "message": "Semua pengaturan"
+  },
+  "reportBug": {
+    "message": "Laporkan bug"
+  },
+  "copy": {
+    "message": "Salin"
+  },
+  "download": {
+    "message": "Unduh"
+  },
+  "refresh": {
+    "message": "Segarkan"
+  },
+  "copied": {
+    "message": "Tersalin"
+  },
+  "lastRun": {
+    "message": "Analisis terakhir"
+  },
+  "recentErrors": {
+    "message": "Kesalahan terbaru"
+  },
+  "settingsData": {
+    "message": "Data pengaturan"
+  },
+  "exportSettings": {
+    "message": "Ekspor pengaturan"
+  },
+  "importSettings": {
+    "message": "Impor pengaturan"
+  },
+  "resetDefaults": {
+    "message": "Kembalikan ke bawaan"
+  },
+  "rateWikiweigher": {
+    "message": "Beri nilai Wikiweigher"
+  },
+  "rateIt": {
+    "message": "Beri nilai"
+  },
+  "sourceAndIssues": {
+    "message": "Kode dan isu"
+  },
+  "whatsNew": {
+    "message": "Yang baru"
+  },
+  "whatGetsSent": {
+    "message": "Apa yang dikirim"
+  }
+}

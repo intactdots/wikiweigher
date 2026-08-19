@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Wikiweigher"
+  },
+  "paneRanking": {
+    "message": "Rangordning"
+  },
+  "paneDisplay": {
+    "message": "Visning"
+  },
+  "paneReading": {
+    "message": "Läsning"
+  },
+  "paneSupport": {
+    "message": "Support"
+  },
+  "paneAbout": {
+    "message": "Om"
+  },
+  "presetBalanced": {
+    "message": "Balanserad"
+  },
+  "presetComplete": {
+    "message": "Fullständig"
+  },
+  "presetSourced": {
+    "message": "Källbelagd"
+  },
+  "presetMostComplete": {
+    "message": "Mest fullständig"
+  },
+  "presetBestSourced": {
+    "message": "Bäst källbelagd"
+  },
+  "completeness": {
+    "message": "Grundlighet"
+  },
+  "depthEssential": {
+    "message": "Nödvändigt"
+  },
+  "depthStandard": {
+    "message": "Standard"
+  },
+  "depthThorough": {
+    "message": "Grundlig"
+  },
+  "fineWeight": {
+    "message": "Fin viktning"
+  },
+  "axisSources": {
+    "message": "Källor"
+  },
+  "axisDepth": {
+    "message": "Djup"
+  },
+  "theme": {
+    "message": "Tema"
+  },
+  "themeAuto": {
+    "message": "Automatiskt"
+  },
+  "themeLight": {
+    "message": "Ljust"
+  },
+  "themeDark": {
+    "message": "Mörkt"
+  },
+  "accentColor": {
+    "message": "Accentfärg"
+  },
+  "cardLanguage": {
+    "message": "Kortets språk"
+  },
+  "languagesYouRead": {
+    "message": "Språk du läser"
+  },
+  "startMinimized": {
+    "message": "Starta minimerad"
+  },
+  "showOnArticles": {
+    "message": "Visa på Wikipedia-artiklar"
+  },
+  "allSettings": {
+    "message": "Alla inställningar"
+  },
+  "reportBug": {
+    "message": "Rapportera ett fel"
+  },
+  "copy": {
+    "message": "Kopiera"
+  },
+  "download": {
+    "message": "Ladda ner"
+  },
+  "refresh": {
+    "message": "Uppdatera"
+  },
+  "copied": {
+    "message": "Kopierat"
+  },
+  "lastRun": {
+    "message": "Senaste körning"
+  },
+  "recentErrors": {
+    "message": "Senaste fel"
+  },
+  "settingsData": {
+    "message": "Inställningsdata"
+  },
+  "exportSettings": {
+    "message": "Exportera inställningar"
+  },
+  "importSettings": {
+    "message": "Importera inställningar"
+  },
+  "resetDefaults": {
+    "message": "Återställ standard"
+  },
+  "rateWikiweigher": {
+    "message": "Betygsätt Wikiweigher"
+  },
+  "rateIt": {
+    "message": "Betygsätt"
+  },
+  "sourceAndIssues": {
+    "message": "Källkod och ärenden"
+  },
+  "whatsNew": {
+    "message": "Nyheter"
+  },
+  "whatGetsSent": {
+    "message": "Vad som skickas"
+  }
+}

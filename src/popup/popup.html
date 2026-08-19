@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wikiweigher</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="hd">
+    <img src="../../icons/icon48.png" class="logo" alt="">
+    <span class="name">Wikiweigher</span>
+  </div>
+
+  <label class="toggle">
+    <span class="toggle-label" data-i18n="showOnArticles">Show on Wikipedia articles</span>
+    <input type="checkbox" id="enabled">
+    <span class="switch" aria-hidden="true"></span>
+  </label>
+
+  <div class="sec">
+    <div class="sec-title" data-i18n="paneRanking">Ranking</div>
+    <div class="segs" id="presets">
+      <button type="button" data-p="balanced" data-i18n="presetBalanced">Balanced</button>
+      <button type="button" data-p="complete" data-i18n="presetComplete">Complete</button>
+      <button type="button" data-p="sourced" data-i18n="presetSourced">Sourced</button>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="sec-title" data-i18n="completeness">Completeness</div>
+    <div class="segs" id="completeness">
+      <button type="button" data-a="6" data-i18n="depthEssential">Essential</button>
+      <button type="button" data-a="12" data-i18n="depthStandard">Standard</button>
+      <button type="button" data-a="24" data-i18n="depthThorough">Thorough</button>
+    </div>
+  </div>
+
+  <button class="more" id="more" type="button" data-i18n="allSettings">All settings</button>
+
+  <div class="pfoot">
+    <button class="plink" id="about" type="button" data-i18n="paneAbout">About</button>
+  </div>
+
+  <script src="../ui/boot.js"></script>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

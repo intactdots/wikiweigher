@@ -1,0 +1,245 @@
+{
+  "extName": {
+    "message": "Wikiweigher"
+  },
+  "extDesc": {
+    "message": "On any Wikipedia article, see which language version is most complete, ranked by prose depth and reference count."
+  },
+  "cmdOpenPopup": {
+    "message": "Open the Wikiweigher panel"
+  },
+  "cmdToggle": {
+    "message": "Turn Wikiweigher on or off"
+  },
+  "showOnArticles": {
+    "message": "Show on Wikipedia articles"
+  },
+  "allSettings": {
+    "message": "All settings"
+  },
+  "paneRanking": {
+    "message": "Ranking"
+  },
+  "paneDisplay": {
+    "message": "Display"
+  },
+  "paneReading": {
+    "message": "Reading"
+  },
+  "paneSupport": {
+    "message": "Support"
+  },
+  "paneAbout": {
+    "message": "About"
+  },
+  "presetBalanced": {
+    "message": "Balanced"
+  },
+  "presetComplete": {
+    "message": "Complete"
+  },
+  "presetSourced": {
+    "message": "Sourced"
+  },
+  "presetMostComplete": {
+    "message": "Most complete"
+  },
+  "presetBestSourced": {
+    "message": "Best sourced"
+  },
+  "completeness": {
+    "message": "Completeness"
+  },
+  "depthEssential": {
+    "message": "Essential"
+  },
+  "depthStandard": {
+    "message": "Standard"
+  },
+  "depthThorough": {
+    "message": "Thorough"
+  },
+  "fineWeight": {
+    "message": "Fine weight"
+  },
+  "axisSources": {
+    "message": "Sources"
+  },
+  "axisDepth": {
+    "message": "Depth"
+  },
+  "weightAria": {
+    "message": "Depth versus sources weight"
+  },
+  "theme": {
+    "message": "Theme"
+  },
+  "themeAuto": {
+    "message": "Auto"
+  },
+  "themeLight": {
+    "message": "Light"
+  },
+  "themeDark": {
+    "message": "Dark"
+  },
+  "accentColor": {
+    "message": "Accent color"
+  },
+  "cardLanguage": {
+    "message": "Card language"
+  },
+  "languagesYouRead": {
+    "message": "Languages you read"
+  },
+  "startMinimized": {
+    "message": "Start minimized"
+  },
+  "reportBug": {
+    "message": "Report a bug"
+  },
+  "copy": {
+    "message": "Copy"
+  },
+  "download": {
+    "message": "Download"
+  },
+  "refresh": {
+    "message": "Refresh"
+  },
+  "copied": {
+    "message": "Copied"
+  },
+  "lastRun": {
+    "message": "Last run"
+  },
+  "recentErrors": {
+    "message": "Recent errors"
+  },
+  "settingsData": {
+    "message": "Settings data"
+  },
+  "exportSettings": {
+    "message": "Export settings"
+  },
+  "importSettings": {
+    "message": "Import settings"
+  },
+  "resetDefaults": {
+    "message": "Reset to defaults"
+  },
+  "rateWikiweigher": {
+    "message": "Rate Wikiweigher"
+  },
+  "rateIt": {
+    "message": "Rate it"
+  },
+  "sourceAndIssues": {
+    "message": "Source and issues"
+  },
+  "whatsNew": {
+    "message": "What's new"
+  },
+  "ssRanking": {
+    "message": "How Wikiweigher decides the best language."
+  },
+  "ssDisplay": {
+    "message": "Theme, accent color, and the card's language."
+  },
+  "ssReading": {
+    "message": "Languages you read, and where the card shows."
+  },
+  "ssSupport": {
+    "message": "What happened on the last run, and how to report a problem."
+  },
+  "whatGetsSent": {
+    "message": "What gets sent"
+  },
+  "ssAbout": {
+    "message": "Version, links, and what's new."
+  },
+  "noteCompleteness": {
+    "message": "How many languages get exact word and reference counts (6 / 12 / 24). More is more thorough but slower. Changing it re-ranks the open article right away."
+  },
+  "noteCardLanguage": {
+    "message": "Auto uses the article's language for the card's own labels."
+  },
+  "noteLanguagesYouRead": {
+    "message": "Comma-separated codes. If the best language is not one you read, the card offers a translate link. On articles with many language versions these codes also help decide which get measured. Left empty, your browser's languages are used."
+  },
+  "noteDrag": {
+    "message": "Drag the card by its header to move it - it remembers where you left it."
+  },
+  "noteReportPrivacy": {
+    "message": "The wiki and the article title, never the full page address or your history."
+  },
+  "noteSettingsData": {
+    "message": "Import checks every value before applying it."
+  },
+  "noteRate": {
+    "message": "A quick review on the Chrome Web Store helps others find it."
+  },
+  "confirmReset": {
+    "message": "Reset every Wikiweigher setting to its default?"
+  },
+  "confirmOverflow": {
+    "message": "The report is too long to put in the link, so it will be copied to your clipboard instead. Paste it into the Diagnostics field on the issue page. Copy it now?"
+  },
+  "msgExported": {
+    "message": "Exported"
+  },
+  "msgImported": {
+    "message": "Imported"
+  },
+  "msgReset": {
+    "message": "Reset to defaults"
+  },
+  "msgBadFile": {
+    "message": "Not a valid settings file"
+  },
+  "msgNoClipboard": {
+    "message": "Could not reach the clipboard"
+  },
+  "msgPasteIt": {
+    "message": "Copied - paste it into Diagnostics"
+  },
+  "noteReportPick": {
+    "message": "Two ways in. Both send the same details, already filled in."
+  },
+  "wayGithub": {
+    "message": "Open a GitHub issue"
+  },
+  "wayGithubNote": {
+    "message": "Needs a GitHub account. Public, and you get notified when it is fixed."
+  },
+  "wayEmail": {
+    "message": "Email us"
+  },
+  "wayEmailNote": {
+    "message": "No account needed. Opens your mail app with the report written for you."
+  },
+  "msgMailFallback": {
+    "message": "Diagnostics copied and saved as a file. Attach or paste it into the email."
+  },
+  "msgMailFallbackFile": {
+    "message": "Diagnostics saved as a file. Attach it to the email."
+  },
+  "madeBy": {
+    "message": "Made by"
+  },
+  "cardLangAuto": {
+    "message": "Auto - the article's language"
+  },
+  "presetBalancedNote": {
+    "message": "50% depth / 50% sources"
+  },
+  "presetCompleteNote": {
+    "message": "75% depth / 25% sources"
+  },
+  "presetSourcedNote": {
+    "message": "25% depth / 75% sources"
+  },
+  "aboutBlurb": {
+    "message": "Ranks the same Wikipedia article across its languages and recommends the most complete one to read."
+  }
+}
