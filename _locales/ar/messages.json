@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Wikiweigher"
+  },
+  "paneRanking": {
+    "message": "الترتيب"
+  },
+  "paneDisplay": {
+    "message": "العرض"
+  },
+  "paneReading": {
+    "message": "القراءة"
+  },
+  "paneSupport": {
+    "message": "الدعم"
+  },
+  "paneAbout": {
+    "message": "حول"
+  },
+  "presetBalanced": {
+    "message": "متوازن"
+  },
+  "presetComplete": {
+    "message": "الأكمل"
+  },
+  "presetSourced": {
+    "message": "الأفضل توثيقا"
+  },
+  "presetMostComplete": {
+    "message": "الأكثر اكتمالا"
+  },
+  "presetBestSourced": {
+    "message": "الأفضل توثيقا"
+  },
+  "completeness": {
+    "message": "مدى الشمول"
+  },
+  "depthEssential": {
+    "message": "أساسي"
+  },
+  "depthStandard": {
+    "message": "قياسي"
+  },
+  "depthThorough": {
+    "message": "شامل"
+  },
+  "fineWeight": {
+    "message": "وزن دقيق"
+  },
+  "axisSources": {
+    "message": "المصادر"
+  },
+  "axisDepth": {
+    "message": "العمق"
+  },
+  "theme": {
+    "message": "المظهر"
+  },
+  "themeAuto": {
+    "message": "تلقائي"
+  },
+  "themeLight": {
+    "message": "فاتح"
+  },
+  "themeDark": {
+    "message": "داكن"
+  },
+  "accentColor": {
+    "message": "لون التمييز"
+  },
+  "cardLanguage": {
+    "message": "لغة البطاقة"
+  },
+  "languagesYouRead": {
+    "message": "اللغات التي تقرأها"
+  },
+  "startMinimized": {
+    "message": "البدء مصغرا"
+  },
+  "showOnArticles": {
+    "message": "إظهار في مقالات ويكيبيديا"
+  },
+  "allSettings": {
+    "message": "كل الإعدادات"
+  },
+  "reportBug": {
+    "message": "الإبلاغ عن خطأ"
+  },
+  "copy": {
+    "message": "نسخ"
+  },
+  "download": {
+    "message": "تنزيل"
+  },
+  "refresh": {
+    "message": "تحديث"
+  },
+  "copied": {
+    "message": "تم النسخ"
+  },
+  "lastRun": {
+    "message": "آخر تشغيل"
+  },
+  "recentErrors": {
+    "message": "أحدث الأخطاء"
+  },
+  "settingsData": {
+    "message": "بيانات الإعدادات"
+  },
+  "exportSettings": {
+    "message": "تصدير الإعدادات"
+  },
+  "importSettings": {
+    "message": "استيراد الإعدادات"
+  },
+  "resetDefaults": {
+    "message": "إعادة الضبط"
+  },
+  "rateWikiweigher": {
+    "message": "قيّم Wikiweigher"
+  },
+  "rateIt": {
+    "message": "قيّم"
+  },
+  "sourceAndIssues": {
+    "message": "الشيفرة والمشكلات"
+  },
+  "whatsNew": {
+    "message": "ما الجديد"
+  },
+  "whatGetsSent": {
+    "message": "ما الذي يرسل"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Wikiweigher"
+  },
+  "paneRanking": {
+    "message": "Classement"
+  },
+  "paneDisplay": {
+    "message": "Affichage"
+  },
+  "paneReading": {
+    "message": "Lecture"
+  },
+  "paneSupport": {
+    "message": "Assistance"
+  },
+  "paneAbout": {
+    "message": "À propos"
+  },
+  "presetBalanced": {
+    "message": "Équilibré"
+  },
+  "presetComplete": {
+    "message": "Complet"
+  },
+  "presetSourced": {
+    "message": "Sourcé"
+  },
+  "presetMostComplete": {
+    "message": "Le plus complet"
+  },
+  "presetBestSourced": {
+    "message": "Le mieux sourcé"
+  },
+  "completeness": {
+    "message": "Exhaustivité"
+  },
+  "depthEssential": {
+    "message": "Essentiel"
+  },
+  "depthStandard": {
+    "message": "Standard"
+  },
+  "depthThorough": {
+    "message": "Approfondi"
+  },
+  "fineWeight": {
+    "message": "Pondération fine"
+  },
+  "axisSources": {
+    "message": "Sources"
+  },
+  "axisDepth": {
+    "message": "Profondeur"
+  },
+  "theme": {
+    "message": "Thème"
+  },
+  "themeAuto": {
+    "message": "Automatique"
+  },
+  "themeLight": {
+    "message": "Clair"
+  },
+  "themeDark": {
+    "message": "Sombre"
+  },
+  "accentColor": {
+    "message": "Couleur d’accent"
+  },
+  "cardLanguage": {
+    "message": "Langue de la carte"
+  },
+  "languagesYouRead": {
+    "message": "Langues que vous lisez"
+  },
+  "startMinimized": {
+    "message": "Démarrer réduit"
+  },
+  "showOnArticles": {
+    "message": "Afficher sur les articles Wikipédia"
+  },
+  "allSettings": {
+    "message": "Tous les paramètres"
+  },
+  "reportBug": {
+    "message": "Signaler un bug"
+  },
+  "copy": {
+    "message": "Copier"
+  },
+  "download": {
+    "message": "Télécharger"
+  },
+  "refresh": {
+    "message": "Actualiser"
+  },
+  "copied": {
+    "message": "Copié"
+  },
+  "lastRun": {
+    "message": "Dernière analyse"
+  },
+  "recentErrors": {
+    "message": "Erreurs récentes"
+  },
+  "settingsData": {
+    "message": "Données des paramètres"
+  },
+  "exportSettings": {
+    "message": "Exporter les paramètres"
+  },
+  "importSettings": {
+    "message": "Importer les paramètres"
+  },
+  "resetDefaults": {
+    "message": "Réinitialiser"
+  },
+  "rateWikiweigher": {
+    "message": "Évaluer Wikiweigher"
+  },
+  "rateIt": {
+    "message": "Évaluer"
+  },
+  "sourceAndIssues": {
+    "message": "Code source et tickets"
+  },
+  "whatsNew": {
+    "message": "Nouveautés"
+  },
+  "whatGetsSent": {
+    "message": "Ce qui est envoyé"
+  }
+}

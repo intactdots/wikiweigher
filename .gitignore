@@ -1,0 +1,19 @@
+node_modules/
+.artifacts/
+*.log
+.package/
+submission/
+
+# Store submission material and brand exploration. Kept on disk, not published.
+store/LISTING.md
+store/SUBMISSION-STEPS.md
+store/logo-concept/
+store/promo/
+store/screenshots/2-*.png
+store/screenshots/3-*.png
+store/screenshots/4-*.png
+store/screenshots/5-*.png
+scripts/submission.mjs
+scripts/promo-tiles.mjs
+scripts/logo-concept.mjs
+scripts/repo-harden.sh

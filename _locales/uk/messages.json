@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Wikiweigher"
+  },
+  "paneRanking": {
+    "message": "Ранжування"
+  },
+  "paneDisplay": {
+    "message": "Відображення"
+  },
+  "paneReading": {
+    "message": "Читання"
+  },
+  "paneSupport": {
+    "message": "Підтримка"
+  },
+  "paneAbout": {
+    "message": "Про додаток"
+  },
+  "presetBalanced": {
+    "message": "Збалансовано"
+  },
+  "presetComplete": {
+    "message": "Повнота"
+  },
+  "presetSourced": {
+    "message": "Джерела"
+  },
+  "presetMostComplete": {
+    "message": "Найповніша"
+  },
+  "presetBestSourced": {
+    "message": "Більше джерел"
+  },
+  "completeness": {
+    "message": "Ретельність"
+  },
+  "depthEssential": {
+    "message": "Базово"
+  },
+  "depthStandard": {
+    "message": "Стандартно"
+  },
+  "depthThorough": {
+    "message": "Ретельно"
+  },
+  "fineWeight": {
+    "message": "Точна вага"
+  },
+  "axisSources": {
+    "message": "Джерела"
+  },
+  "axisDepth": {
+    "message": "Обсяг"
+  },
+  "theme": {
+    "message": "Тема"
+  },
+  "themeAuto": {
+    "message": "Авто"
+  },
+  "themeLight": {
+    "message": "Світла"
+  },
+  "themeDark": {
+    "message": "Темна"
+  },
+  "accentColor": {
+    "message": "Колір акценту"
+  },
+  "cardLanguage": {
+    "message": "Мова картки"
+  },
+  "languagesYouRead": {
+    "message": "Мови, які ви читаєте"
+  },
+  "startMinimized": {
+    "message": "Запускати згорнутою"
+  },
+  "showOnArticles": {
+    "message": "Показувати на статтях Вікіпедії"
+  },
+  "allSettings": {
+    "message": "Усі налаштування"
+  },
+  "reportBug": {
+    "message": "Повідомити про помилку"
+  },
+  "copy": {
+    "message": "Копіювати"
+  },
+  "download": {
+    "message": "Завантажити"
+  },
+  "refresh": {
+    "message": "Оновити"
+  },
+  "copied": {
+    "message": "Скопійовано"
+  },
+  "lastRun": {
+    "message": "Останній запуск"
+  },
+  "recentErrors": {
+    "message": "Останні помилки"
+  },
+  "settingsData": {
+    "message": "Дані налаштувань"
+  },
+  "exportSettings": {
+    "message": "Експорт налаштувань"
+  },
+  "importSettings": {
+    "message": "Імпорт налаштувань"
+  },
+  "resetDefaults": {
+    "message": "Скинути налаштування"
+  },
+  "rateWikiweigher": {
+    "message": "Оцінити Wikiweigher"
+  },
+  "rateIt": {
+    "message": "Оцінити"
+  },
+  "sourceAndIssues": {
+    "message": "Код та обговорення"
+  },
+  "whatsNew": {
+    "message": "Що нового"
+  },
+  "whatGetsSent": {
+    "message": "Що буде надіслано"
+  }
+}

@@ -1,0 +1,18 @@
+Screenshot source and copyright notes
+======================================
+
+1-best-overall.png shows Wikiweigher's own card, which is original work
+created for this extension, over a live Wikipedia article page.
+
+  en.wikipedia.org/wiki/Chernobyl_disaster
+
+Wikipedia article text is written by Wikipedia's volunteer contributors and is
+licensed CC BY-SA 4.0. The photograph visible in the screenshot is incidental
+page content under its own licence, reproduced only as part of a screenshot of
+the page. The Wikipedia name, logo, and wordmark are trademarks of the
+Wikimedia Foundation. Wikiweigher is an independent, unofficial browser
+extension and is not affiliated with, endorsed by, or sponsored by the
+Wikimedia Foundation.
+
+The icon and card interface shown are original assets created for this
+project; no third-party icon, font, or image assets are used.

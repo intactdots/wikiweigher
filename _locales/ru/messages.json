@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Wikiweigher"
+  },
+  "paneRanking": {
+    "message": "Ранжирование"
+  },
+  "paneDisplay": {
+    "message": "Отображение"
+  },
+  "paneReading": {
+    "message": "Чтение"
+  },
+  "paneSupport": {
+    "message": "Поддержка"
+  },
+  "paneAbout": {
+    "message": "О программе"
+  },
+  "presetBalanced": {
+    "message": "Сбалансированно"
+  },
+  "presetComplete": {
+    "message": "Полнота"
+  },
+  "presetSourced": {
+    "message": "Источники"
+  },
+  "presetMostComplete": {
+    "message": "Самая полная"
+  },
+  "presetBestSourced": {
+    "message": "Больше источников"
+  },
+  "completeness": {
+    "message": "Тщательность"
+  },
+  "depthEssential": {
+    "message": "Базово"
+  },
+  "depthStandard": {
+    "message": "Стандартно"
+  },
+  "depthThorough": {
+    "message": "Тщательно"
+  },
+  "fineWeight": {
+    "message": "Точный вес"
+  },
+  "axisSources": {
+    "message": "Источники"
+  },
+  "axisDepth": {
+    "message": "Объём"
+  },
+  "theme": {
+    "message": "Тема"
+  },
+  "themeAuto": {
+    "message": "Авто"
+  },
+  "themeLight": {
+    "message": "Светлая"
+  },
+  "themeDark": {
+    "message": "Тёмная"
+  },
+  "accentColor": {
+    "message": "Цвет акцента"
+  },
+  "cardLanguage": {
+    "message": "Язык карточки"
+  },
+  "languagesYouRead": {
+    "message": "Языки, которые вы читаете"
+  },
+  "startMinimized": {
+    "message": "Запускать свёрнутой"
+  },
+  "showOnArticles": {
+    "message": "Показывать на статьях Википедии"
+  },
+  "allSettings": {
+    "message": "Все настройки"
+  },
+  "reportBug": {
+    "message": "Сообщить об ошибке"
+  },
+  "copy": {
+    "message": "Копировать"
+  },
+  "download": {
+    "message": "Скачать"
+  },
+  "refresh": {
+    "message": "Обновить"
+  },
+  "copied": {
+    "message": "Скопировано"
+  },
+  "lastRun": {
+    "message": "Последний запуск"
+  },
+  "recentErrors": {
+    "message": "Недавние ошибки"
+  },
+  "settingsData": {
+    "message": "Данные настроек"
+  },
+  "exportSettings": {
+    "message": "Экспорт настроек"
+  },
+  "importSettings": {
+    "message": "Импорт настроек"
+  },
+  "resetDefaults": {
+    "message": "Сбросить настройки"
+  },
+  "rateWikiweigher": {
+    "message": "Оценить Wikiweigher"
+  },
+  "rateIt": {
+    "message": "Оценить"
+  },
+  "sourceAndIssues": {
+    "message": "Код и обсуждения"
+  },
+  "whatsNew": {
+    "message": "Что нового"
+  },
+  "whatGetsSent": {
+    "message": "Что будет отправлено"
+  }
+}

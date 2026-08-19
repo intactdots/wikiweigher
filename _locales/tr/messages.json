@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Wikiweigher"
+  },
+  "paneRanking": {
+    "message": "Sıralama"
+  },
+  "paneDisplay": {
+    "message": "Görünüm"
+  },
+  "paneReading": {
+    "message": "Okuma"
+  },
+  "paneSupport": {
+    "message": "Destek"
+  },
+  "paneAbout": {
+    "message": "Hakkında"
+  },
+  "presetBalanced": {
+    "message": "Dengeli"
+  },
+  "presetComplete": {
+    "message": "Kapsamlı"
+  },
+  "presetSourced": {
+    "message": "Kaynaklı"
+  },
+  "presetMostComplete": {
+    "message": "En kapsamlı"
+  },
+  "presetBestSourced": {
+    "message": "En iyi kaynaklı"
+  },
+  "completeness": {
+    "message": "Kapsamlılık"
+  },
+  "depthEssential": {
+    "message": "Temel"
+  },
+  "depthStandard": {
+    "message": "Standart"
+  },
+  "depthThorough": {
+    "message": "Ayrıntılı"
+  },
+  "fineWeight": {
+    "message": "İnce ağırlık"
+  },
+  "axisSources": {
+    "message": "Kaynaklar"
+  },
+  "axisDepth": {
+    "message": "Derinlik"
+  },
+  "theme": {
+    "message": "Tema"
+  },
+  "themeAuto": {
+    "message": "Otomatik"
+  },
+  "themeLight": {
+    "message": "Açık"
+  },
+  "themeDark": {
+    "message": "Koyu"
+  },
+  "accentColor": {
+    "message": "Vurgu rengi"
+  },
+  "cardLanguage": {
+    "message": "Kart dili"
+  },
+  "languagesYouRead": {
+    "message": "Okuduğun diller"
+  },
+  "startMinimized": {
+    "message": "Küçültülmüş başlat"
+  },
+  "showOnArticles": {
+    "message": "Wikipedia makalelerinde göster"
+  },
+  "allSettings": {
+    "message": "Tüm ayarlar"
+  },
+  "reportBug": {
+    "message": "Hata bildir"
+  },
+  "copy": {
+    "message": "Kopyala"
+  },
+  "download": {
+    "message": "İndir"
+  },
+  "refresh": {
+    "message": "Yenile"
+  },
+  "copied": {
+    "message": "Kopyalandı"
+  },
+  "lastRun": {
+    "message": "Son çalışma"
+  },
+  "recentErrors": {
+    "message": "Son hatalar"
+  },
+  "settingsData": {
+    "message": "Ayar verileri"
+  },
+  "exportSettings": {
+    "message": "Ayarları dışa aktar"
+  },
+  "importSettings": {
+    "message": "Ayarları içe aktar"
+  },
+  "resetDefaults": {
+    "message": "Varsayılanlara dön"
+  },
+  "rateWikiweigher": {
+    "message": "Wikiweigher’ı değerlendir"
+  },
+  "rateIt": {
+    "message": "Değerlendir"
+  },
+  "sourceAndIssues": {
+    "message": "Kaynak kodu ve sorunlar"
+  },
+  "whatsNew": {
+    "message": "Yenilikler"
+  },
+  "whatGetsSent": {
+    "message": "Ne gönderiliyor"
+  }
+}

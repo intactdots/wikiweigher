@@ -1,0 +1,72 @@
+name: Bug report
+description: Something in Wikiweigher does not work
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The fastest way to file this is from inside the extension: open Wikiweigher's
+        settings, go to **Support**, and under **Report a bug** press **Open a GitHub
+        issue**. That fills in the
+        Diagnostics box below for you and usually saves a round of questions.
+
+        Two things this tracker does not handle:
+
+        - **Disagreeing with the ranking is not a bug.** If Wikiweigher picked a language
+          you would not have picked, open a Discussion instead. Bring the article and the
+          two languages and it can be looked at properly.
+        - **Wikipedia's own content** is not something this extension controls. Missing or
+          wrong article text belongs on Wikipedia.
+
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: Before reporting
+      options:
+        - label: I searched the existing issues and this is not a duplicate.
+          required: true
+        - label: I am on the latest version of Wikiweigher.
+          required: true
+        - label: This is a malfunction, not a disagreement with which language was ranked best.
+          required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you expected, and what you got instead.
+      placeholder: The card stayed on "Finding other languages" and never finished.
+    validations:
+      required: true
+
+  - type: input
+    id: article
+    attributes:
+      label: Article address
+      description: Optional. The diagnostics below already name the wiki and the article.
+      placeholder: https://en.wikipedia.org/wiki/Mount_Everest
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open the article above
+        2. Wait for the card
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostics
+      description: |
+        If Wikiweigher filled this in for you, leave it alone. Otherwise open the
+        extension's settings, go to Support, expand **What gets sent**, and press
+        **Copy**, then paste here. It carries no page address, no browsing history and
+        nothing that identifies you: the extension version, the wiki hostname, the
+        article, your browser and system, the settings you changed, what Wikiweigher
+        measured, and recent error messages.
+    validations:
+      required: true

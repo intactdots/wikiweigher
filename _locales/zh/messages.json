@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Wikiweigher"
+  },
+  "paneRanking": {
+    "message": "排序"
+  },
+  "paneDisplay": {
+    "message": "显示"
+  },
+  "paneReading": {
+    "message": "阅读"
+  },
+  "paneSupport": {
+    "message": "支持"
+  },
+  "paneAbout": {
+    "message": "关于"
+  },
+  "presetBalanced": {
+    "message": "平衡"
+  },
+  "presetComplete": {
+    "message": "完整度"
+  },
+  "presetSourced": {
+    "message": "来源"
+  },
+  "presetMostComplete": {
+    "message": "最完整"
+  },
+  "presetBestSourced": {
+    "message": "来源最充分"
+  },
+  "completeness": {
+    "message": "分析深度"
+  },
+  "depthEssential": {
+    "message": "精简"
+  },
+  "depthStandard": {
+    "message": "标准"
+  },
+  "depthThorough": {
+    "message": "彻底"
+  },
+  "fineWeight": {
+    "message": "精细权重"
+  },
+  "axisSources": {
+    "message": "来源"
+  },
+  "axisDepth": {
+    "message": "篇幅"
+  },
+  "theme": {
+    "message": "主题"
+  },
+  "themeAuto": {
+    "message": "自动"
+  },
+  "themeLight": {
+    "message": "浅色"
+  },
+  "themeDark": {
+    "message": "深色"
+  },
+  "accentColor": {
+    "message": "强调色"
+  },
+  "cardLanguage": {
+    "message": "卡片语言"
+  },
+  "languagesYouRead": {
+    "message": "你阅读的语言"
+  },
+  "startMinimized": {
+    "message": "启动时最小化"
+  },
+  "showOnArticles": {
+    "message": "在维基百科条目上显示"
+  },
+  "allSettings": {
+    "message": "全部设置"
+  },
+  "reportBug": {
+    "message": "报告错误"
+  },
+  "copy": {
+    "message": "复制"
+  },
+  "download": {
+    "message": "下载"
+  },
+  "refresh": {
+    "message": "刷新"
+  },
+  "copied": {
+    "message": "已复制"
+  },
+  "lastRun": {
+    "message": "最近一次运行"
+  },
+  "recentErrors": {
+    "message": "最近的错误"
+  },
+  "settingsData": {
+    "message": "设置数据"
+  },
+  "exportSettings": {
+    "message": "导出设置"
+  },
+  "importSettings": {
+    "message": "导入设置"
+  },
+  "resetDefaults": {
+    "message": "恢复默认"
+  },
+  "rateWikiweigher": {
+    "message": "为 Wikiweigher 评分"
+  },
+  "rateIt": {
+    "message": "评分"
+  },
+  "sourceAndIssues": {
+    "message": "源代码与问题"
+  },
+  "whatsNew": {
+    "message": "更新内容"
+  },
+  "whatGetsSent": {
+    "message": "将发送的内容"
+  }
+}

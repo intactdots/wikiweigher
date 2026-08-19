@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Wikiweigher"
+  },
+  "paneRanking": {
+    "message": "Bewertung"
+  },
+  "paneDisplay": {
+    "message": "Anzeige"
+  },
+  "paneReading": {
+    "message": "Lesen"
+  },
+  "paneSupport": {
+    "message": "Hilfe"
+  },
+  "paneAbout": {
+    "message": "Über"
+  },
+  "presetBalanced": {
+    "message": "Ausgewogen"
+  },
+  "presetComplete": {
+    "message": "Vollständig"
+  },
+  "presetSourced": {
+    "message": "Belegt"
+  },
+  "presetMostComplete": {
+    "message": "Am vollständigsten"
+  },
+  "presetBestSourced": {
+    "message": "Am besten belegt"
+  },
+  "completeness": {
+    "message": "Gründlichkeit"
+  },
+  "depthEssential": {
+    "message": "Wesentlich"
+  },
+  "depthStandard": {
+    "message": "Standard"
+  },
+  "depthThorough": {
+    "message": "Gründlich"
+  },
+  "fineWeight": {
+    "message": "Feine Gewichtung"
+  },
+  "axisSources": {
+    "message": "Belege"
+  },
+  "axisDepth": {
+    "message": "Umfang"
+  },
+  "theme": {
+    "message": "Design"
+  },
+  "themeAuto": {
+    "message": "Automatisch"
+  },
+  "themeLight": {
+    "message": "Hell"
+  },
+  "themeDark": {
+    "message": "Dunkel"
+  },
+  "accentColor": {
+    "message": "Akzentfarbe"
+  },
+  "cardLanguage": {
+    "message": "Kartensprache"
+  },
+  "languagesYouRead": {
+    "message": "Sprachen, die du liest"
+  },
+  "startMinimized": {
+    "message": "Minimiert starten"
+  },
+  "showOnArticles": {
+    "message": "Auf Wikipedia-Artikeln anzeigen"
+  },
+  "allSettings": {
+    "message": "Alle Einstellungen"
+  },
+  "reportBug": {
+    "message": "Fehler melden"
+  },
+  "copy": {
+    "message": "Kopieren"
+  },
+  "download": {
+    "message": "Herunterladen"
+  },
+  "refresh": {
+    "message": "Aktualisieren"
+  },
+  "copied": {
+    "message": "Kopiert"
+  },
+  "lastRun": {
+    "message": "Letzter Durchlauf"
+  },
+  "recentErrors": {
+    "message": "Letzte Fehler"
+  },
+  "settingsData": {
+    "message": "Einstellungsdaten"
+  },
+  "exportSettings": {
+    "message": "Einstellungen exportieren"
+  },
+  "importSettings": {
+    "message": "Einstellungen importieren"
+  },
+  "resetDefaults": {
+    "message": "Auf Standard zurücksetzen"
+  },
+  "rateWikiweigher": {
+    "message": "Wikiweigher bewerten"
+  },
+  "rateIt": {
+    "message": "Bewerten"
+  },
+  "sourceAndIssues": {
+    "message": "Quellcode und Issues"
+  },
+  "whatsNew": {
+    "message": "Neuerungen"
+  },
+  "whatGetsSent": {
+    "message": "Was gesendet wird"
+  }
+}

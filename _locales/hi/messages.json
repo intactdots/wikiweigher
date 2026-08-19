@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Wikiweigher"
+  },
+  "paneRanking": {
+    "message": "क्रम"
+  },
+  "paneDisplay": {
+    "message": "प्रदर्शन"
+  },
+  "paneReading": {
+    "message": "पढ़ना"
+  },
+  "paneSupport": {
+    "message": "सहायता"
+  },
+  "paneAbout": {
+    "message": "परिचय"
+  },
+  "presetBalanced": {
+    "message": "संतुलित"
+  },
+  "presetComplete": {
+    "message": "पूर्णता"
+  },
+  "presetSourced": {
+    "message": "स्रोत"
+  },
+  "presetMostComplete": {
+    "message": "सबसे पूर्ण"
+  },
+  "presetBestSourced": {
+    "message": "सबसे अधिक स्रोत"
+  },
+  "completeness": {
+    "message": "विश्लेषण की गहराई"
+  },
+  "depthEssential": {
+    "message": "आवश्यक"
+  },
+  "depthStandard": {
+    "message": "मानक"
+  },
+  "depthThorough": {
+    "message": "विस्तृत"
+  },
+  "fineWeight": {
+    "message": "सूक्ष्म भार"
+  },
+  "axisSources": {
+    "message": "स्रोत"
+  },
+  "axisDepth": {
+    "message": "गहराई"
+  },
+  "theme": {
+    "message": "थीम"
+  },
+  "themeAuto": {
+    "message": "स्वचालित"
+  },
+  "themeLight": {
+    "message": "हल्का"
+  },
+  "themeDark": {
+    "message": "गहरा"
+  },
+  "accentColor": {
+    "message": "उभार रंग"
+  },
+  "cardLanguage": {
+    "message": "कार्ड की भाषा"
+  },
+  "languagesYouRead": {
+    "message": "आप जो भाषाएँ पढ़ते हैं"
+  },
+  "startMinimized": {
+    "message": "छोटा करके शुरू करें"
+  },
+  "showOnArticles": {
+    "message": "विकिपीडिया लेखों पर दिखाएँ"
+  },
+  "allSettings": {
+    "message": "सभी सेटिंग्स"
+  },
+  "reportBug": {
+    "message": "त्रुटि बताएँ"
+  },
+  "copy": {
+    "message": "कॉपी"
+  },
+  "download": {
+    "message": "डाउनलोड"
+  },
+  "refresh": {
+    "message": "ताज़ा करें"
+  },
+  "copied": {
+    "message": "कॉपी हो गया"
+  },
+  "lastRun": {
+    "message": "पिछला विश्लेषण"
+  },
+  "recentErrors": {
+    "message": "हाल की त्रुटियाँ"
+  },
+  "settingsData": {
+    "message": "सेटिंग्स डेटा"
+  },
+  "exportSettings": {
+    "message": "सेटिंग्स निर्यात करें"
+  },
+  "importSettings": {
+    "message": "सेटिंग्स आयात करें"
+  },
+  "resetDefaults": {
+    "message": "डिफ़ॉल्ट पर लौटें"
+  },
+  "rateWikiweigher": {
+    "message": "Wikiweigher को रेट करें"
+  },
+  "rateIt": {
+    "message": "रेट करें"
+  },
+  "sourceAndIssues": {
+    "message": "स्रोत और मुद्दे"
+  },
+  "whatsNew": {
+    "message": "नया क्या है"
+  },
+  "whatGetsSent": {
+    "message": "क्या भेजा जाता है"
+  }
+}

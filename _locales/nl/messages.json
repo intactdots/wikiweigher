@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Wikiweigher"
+  },
+  "paneRanking": {
+    "message": "Rangschikking"
+  },
+  "paneDisplay": {
+    "message": "Weergave"
+  },
+  "paneReading": {
+    "message": "Lezen"
+  },
+  "paneSupport": {
+    "message": "Ondersteuning"
+  },
+  "paneAbout": {
+    "message": "Over"
+  },
+  "presetBalanced": {
+    "message": "Gebalanceerd"
+  },
+  "presetComplete": {
+    "message": "Volledig"
+  },
+  "presetSourced": {
+    "message": "Onderbouwd"
+  },
+  "presetMostComplete": {
+    "message": "Meest volledig"
+  },
+  "presetBestSourced": {
+    "message": "Best onderbouwd"
+  },
+  "completeness": {
+    "message": "Volledigheid"
+  },
+  "depthEssential": {
+    "message": "Essentieel"
+  },
+  "depthStandard": {
+    "message": "Standaard"
+  },
+  "depthThorough": {
+    "message": "Grondig"
+  },
+  "fineWeight": {
+    "message": "Fijne weging"
+  },
+  "axisSources": {
+    "message": "Bronnen"
+  },
+  "axisDepth": {
+    "message": "Diepte"
+  },
+  "theme": {
+    "message": "Thema"
+  },
+  "themeAuto": {
+    "message": "Automatisch"
+  },
+  "themeLight": {
+    "message": "Licht"
+  },
+  "themeDark": {
+    "message": "Donker"
+  },
+  "accentColor": {
+    "message": "Accentkleur"
+  },
+  "cardLanguage": {
+    "message": "Taal van de kaart"
+  },
+  "languagesYouRead": {
+    "message": "Talen die je leest"
+  },
+  "startMinimized": {
+    "message": "Geminimaliseerd starten"
+  },
+  "showOnArticles": {
+    "message": "Tonen op Wikipedia-artikelen"
+  },
+  "allSettings": {
+    "message": "Alle instellingen"
+  },
+  "reportBug": {
+    "message": "Bug melden"
+  },
+  "copy": {
+    "message": "Kopiëren"
+  },
+  "download": {
+    "message": "Downloaden"
+  },
+  "refresh": {
+    "message": "Vernieuwen"
+  },
+  "copied": {
+    "message": "Gekopieerd"
+  },
+  "lastRun": {
+    "message": "Laatste analyse"
+  },
+  "recentErrors": {
+    "message": "Recente fouten"
+  },
+  "settingsData": {
+    "message": "Instellingsgegevens"
+  },
+  "exportSettings": {
+    "message": "Instellingen exporteren"
+  },
+  "importSettings": {
+    "message": "Instellingen importeren"
+  },
+  "resetDefaults": {
+    "message": "Standaardwaarden herstellen"
+  },
+  "rateWikiweigher": {
+    "message": "Wikiweigher beoordelen"
+  },
+  "rateIt": {
+    "message": "Beoordelen"
+  },
+  "sourceAndIssues": {
+    "message": "Broncode en issues"
+  },
+  "whatsNew": {
+    "message": "Wat is er nieuw"
+  },
+  "whatGetsSent": {
+    "message": "Wat wordt verzonden"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Wikiweigher"
+  },
+  "paneRanking": {
+    "message": "رتبه‌بندی"
+  },
+  "paneDisplay": {
+    "message": "نمایش"
+  },
+  "paneReading": {
+    "message": "خواندن"
+  },
+  "paneSupport": {
+    "message": "پشتیبانی"
+  },
+  "paneAbout": {
+    "message": "درباره"
+  },
+  "presetBalanced": {
+    "message": "متعادل"
+  },
+  "presetComplete": {
+    "message": "کامل‌ترین"
+  },
+  "presetSourced": {
+    "message": "مستندترین"
+  },
+  "presetMostComplete": {
+    "message": "کامل‌ترین"
+  },
+  "presetBestSourced": {
+    "message": "دارای بیشترین منبع"
+  },
+  "completeness": {
+    "message": "میزان دقت"
+  },
+  "depthEssential": {
+    "message": "پایه"
+  },
+  "depthStandard": {
+    "message": "استاندارد"
+  },
+  "depthThorough": {
+    "message": "کامل"
+  },
+  "fineWeight": {
+    "message": "وزن دقیق"
+  },
+  "axisSources": {
+    "message": "منابع"
+  },
+  "axisDepth": {
+    "message": "حجم"
+  },
+  "theme": {
+    "message": "پوسته"
+  },
+  "themeAuto": {
+    "message": "خودکار"
+  },
+  "themeLight": {
+    "message": "روشن"
+  },
+  "themeDark": {
+    "message": "تیره"
+  },
+  "accentColor": {
+    "message": "رنگ تأکید"
+  },
+  "cardLanguage": {
+    "message": "زبان کارت"
+  },
+  "languagesYouRead": {
+    "message": "زبان‌هایی که می‌خوانید"
+  },
+  "startMinimized": {
+    "message": "شروع به‌صورت کوچک"
+  },
+  "showOnArticles": {
+    "message": "نمایش در مقاله‌های ویکی‌پدیا"
+  },
+  "allSettings": {
+    "message": "همه تنظیمات"
+  },
+  "reportBug": {
+    "message": "گزارش خطا"
+  },
+  "copy": {
+    "message": "کپی"
+  },
+  "download": {
+    "message": "دانلود"
+  },
+  "refresh": {
+    "message": "تازه‌سازی"
+  },
+  "copied": {
+    "message": "کپی شد"
+  },
+  "lastRun": {
+    "message": "آخرین اجرا"
+  },
+  "recentErrors": {
+    "message": "خطاهای اخیر"
+  },
+  "settingsData": {
+    "message": "داده‌های تنظیمات"
+  },
+  "exportSettings": {
+    "message": "خروجی تنظیمات"
+  },
+  "importSettings": {
+    "message": "ورودی تنظیمات"
+  },
+  "resetDefaults": {
+    "message": "بازنشانی به پیش‌فرض"
+  },
+  "rateWikiweigher": {
+    "message": "امتیاز به Wikiweigher"
+  },
+  "rateIt": {
+    "message": "امتیاز دادن"
+  },
+  "sourceAndIssues": {
+    "message": "کد و مشکلات"
+  },
+  "whatsNew": {
+    "message": "تازه‌ها"
+  },
+  "whatGetsSent": {
+    "message": "چه چیزی ارسال می‌شود"
+  }
+}

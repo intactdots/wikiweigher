@@ -1,0 +1,43 @@
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: read
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+
+      - name: Tag, manifest and package agree
+        run: npm run version-check
+        env:
+          TAG: ${{ github.ref_name }}
+
+      - run: npm run test:unit
+      - run: npm run package
+
+      - name: Release notes from the changelog
+        run: node scripts/release-notes.mjs > release-notes.md
+        env:
+          TAG: ${{ github.ref_name }}
+
+      - name: Publish
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create "${{ github.ref_name }}" \
+            --title "${{ github.ref_name }}" \
+            --notes-file release-notes.md \
+            .package/wikiweigher-*.zip

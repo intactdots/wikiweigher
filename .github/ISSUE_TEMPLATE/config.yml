@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Why did it pick that language?
+    url: https://github.com/intactdots/wikiweigher/discussions/categories/q-a
+    about: Disagreeing with the ranking is not a bug. Bring the article and the two languages.
+  - name: Ideas and feature requests
+    url: https://github.com/intactdots/wikiweigher/discussions/categories/ideas
+    about: Suggest something before it becomes an issue.

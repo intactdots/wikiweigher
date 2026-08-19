@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wikiweigher is installed</title>
+  <link rel="stylesheet" href="welcome.css">
+</head>
+<body>
+  <main class="tour">
+    <header class="bar">
+      <div class="brand">
+        <img src="../../icons/icon128.png" alt="">
+        <b>Wikiweigher</b><span id="ver"></span>
+      </div>
+      <button class="skip" id="skip" type="button">Skip tour</button>
+    </header>
+
+    <div class="deck" id="deck">
+
+      <section class="step split" id="step-1" role="tabpanel" aria-labelledby="dot-1">
+        <div class="stage">
+          <img class="lt" src="shots/card-switch-light.png" alt="The Wikiweigher card on the English Photosynthesis article, ranking Deutsch above English">
+          <img class="dk" src="shots/card-switch-dark.png" alt="The Wikiweigher card on the English Photosynthesis article, ranking Deutsch above English">
+        </div>
+        <div class="say">
+          <span class="k">The card</span>
+          <h1>The same article, in the language that says the most.</h1>
+          <p>This is <b>Photosynthesis</b> read in English. German carries 9,000 prose words to English's 6,700, so German wins and the card offers to open it, translated if you want.</p>
+          <p>Look at Spanish. It is the <b>longer</b> article at 7,500 words and still ranks below English, because it carries 34 references against English's 117, and sourcing is half the score.</p>
+          <p>Every picture in this tour is the real thing, not a mockup.</p>
+        </div>
+      </section>
+
+      <section class="step split flip" id="step-2" role="tabpanel" aria-labelledby="dot-2" hidden>
+        <div class="stage">
+          <img class="lt" src="shots/card-stay-light.png" alt="The card on Mount Everest, reporting that English is already the best version">
+          <img class="dk" src="shots/card-stay-dark.png" alt="The card on Mount Everest, reporting that English is already the best version">
+        </div>
+        <div class="say">
+          <span class="k">When you are already right</span>
+          <h2>It tells you to stay.</h2>
+          <p><b>Mount Everest</b> in English, measured against every other language version. Nothing beats it, so nothing tries to move you.</p>
+          <p>A tool built to recommend will always find a reason to recommend. This one is allowed to say the honest thing, which is that you are already reading the best version and can close the card.</p>
+          <p>Drag the card anywhere and it stays put. Minimize it to a small pill and it stays minimized until you restore it.</p>
+        </div>
+      </section>
+
+      <section class="step split" id="step-3" role="tabpanel" aria-labelledby="dot-3" hidden>
+        <div class="stage">
+          <img class="lt" src="shots/card-rtl-light.png" alt="The card on the Arabic Wikipedia article for Cairo, laid out right to left">
+          <img class="dk" src="shots/card-rtl-dark.png" alt="The card on the Arabic Wikipedia article for Cairo, laid out right to left">
+        </div>
+        <div class="say">
+          <span class="k">Every script</span>
+          <h2>It speaks the article's language.</h2>
+          <p>Here it is on <b>&#1575;&#1604;&#1602;&#1575;&#1607;&#1585;&#1577;</b> on Arabic Wikipedia, laid out right to left. The card follows the language you are reading in, not the one your browser happens to be set to.</p>
+          <p>Twenty languages ship with it. Language names appear in their own script throughout.</p>
+        </div>
+      </section>
+
+      <section class="step split flip" id="step-4" role="tabpanel" aria-labelledby="dot-4" hidden>
+        <div class="stage">
+          <img class="lt" src="shots/popup-light.png" alt="The toolbar popup with on/off, ranking and completeness controls">
+          <img class="dk" src="shots/popup-dark.png" alt="The toolbar popup with on/off, ranking and completeness controls">
+        </div>
+        <div class="say">
+          <span class="k">The toolbar icon</span>
+          <h2>Off means off.</h2>
+          <p>Switch Wikiweigher off and no card appears and <b>no requests are made</b>, not a quieter card, nothing at all.</p>
+          <p>The same menu changes what &#8220;best&#8221; means. Weight the ranking toward depth or toward sourcing, and any open card re-sorts as you click, without reloading the page.</p>
+        </div>
+      </section>
+
+      <section class="step stack" id="step-5" role="tabpanel" aria-labelledby="dot-5" hidden>
+        <div class="say lead">
+          <span class="k">Settings</span>
+          <h2>Everything else, in five panes.</h2>
+        </div>
+        <div class="stage">
+          <img class="lt" src="shots/options-light.png" alt="The settings page, showing the ranking pane and the rail of five sections">
+          <img class="dk" src="shots/options-dark.png" alt="The settings page, showing the ranking pane and the rail of five sections">
+        </div>
+        <div class="panes">
+          <p><b>Ranking</b>How depth and references are weighed against each other, and how many languages get measured.</p>
+          <p><b>Display</b>Theme, accent color, and the card's own language.</p>
+          <p><b>Reading</b>The languages you read, which decides when the translate link appears.</p>
+          <p><b>Support</b>What the last run actually measured, and a button that writes a bug report for you.</p>
+          <p><b>About</b>Version, links, and what's new.</p>
+        </div>
+      </section>
+
+      <section class="step final" id="step-6" role="tabpanel" aria-labelledby="dot-6" hidden>
+        <div class="say">
+          <span class="k">You are set</span>
+          <h2>Nothing about you is collected.</h2>
+          <p>Wikiweigher reads the article you are on and asks Wikipedia and Wikidata's public API about its other languages. No server, no account, no tracking. Your settings stay on this machine.</p>
+          <p>Open any Wikipedia article that exists in more than one language and the card appears on its own.</p>
+          <div class="acts">
+            <a class="btn pri" id="try" href="https://en.wikipedia.org/wiki/Photosynthesis">Try it on an article</a>
+            <button class="btn" id="settings" type="button">Open settings</button>
+          </div>
+          <p class="fine">Something not working? Settings has a <b>Support</b> tab that writes a bug report for you.</p>
+        </div>
+      </section>
+
+    </div>
+
+    <footer class="nav">
+      <button class="arrow" id="prev" type="button" aria-label="Previous step">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+        <span>Back</span>
+      </button>
+
+      <div class="dots" role="tablist" aria-label="Tour steps">
+        <button class="dot" id="dot-1" role="tab" type="button" aria-controls="step-1" aria-selected="true" aria-label="Step 1 of 6"></button>
+        <button class="dot" id="dot-2" role="tab" type="button" aria-controls="step-2" aria-selected="false" aria-label="Step 2 of 6" tabindex="-1"></button>
+        <button class="dot" id="dot-3" role="tab" type="button" aria-controls="step-3" aria-selected="false" aria-label="Step 3 of 6" tabindex="-1"></button>
+        <button class="dot" id="dot-4" role="tab" type="button" aria-controls="step-4" aria-selected="false" aria-label="Step 4 of 6" tabindex="-1"></button>
+        <button class="dot" id="dot-5" role="tab" type="button" aria-controls="step-5" aria-selected="false" aria-label="Step 5 of 6" tabindex="-1"></button>
+        <button class="dot" id="dot-6" role="tab" type="button" aria-controls="step-6" aria-selected="false" aria-label="Step 6 of 6" tabindex="-1"></button>
+      </div>
+
+      <button class="arrow next" id="next" type="button" aria-label="Next step">
+        <span>Next</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+      </button>
+    </footer>
+
+    <p class="live" id="live" role="status" aria-live="polite"></p>
+  </main>
+  <script src="../ui/boot.js"></script>
+  <script type="module" src="welcome.js"></script>
+</body>
+</html>

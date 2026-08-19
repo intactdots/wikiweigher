@@ -1,0 +1,15 @@
+{
+  "query": {
+    "pages": {
+      "12345": {
+        "pageid": 12345,
+        "title": "Mount Everest",
+        "langlinks": [
+          { "lang": "de", "*": "Mount Everest" },
+          { "lang": "fr", "*": "Everest" },
+          { "lang": "ja", "*": "エベレスト" }
+        ]
+      }
+    }
+  }
+}

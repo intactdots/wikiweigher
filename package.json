@@ -1,0 +1,42 @@
+{
+  "name": "wikiweigher",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Ranks the same Wikipedia article across languages by prose depth (excluding references) and number of references, and recommends the best one to read.",
+  "scripts": {
+    "build": "esbuild src/content/main.js --bundle --format=iife --outfile=dist/content.js --legal-comments=none && node strip-bundle-comments.mjs",
+    "icons": "node gen-icons.mjs",
+    "version-check": "node scripts/version-check.mjs",
+    "package": "npm run build && node scripts/package.mjs",
+    "test": "npm run test:unit",
+    "test:unit": "node --test test/rate.test.js test/rateBanner.test.js test/wordcount.test.js test/scorer.test.js test/verbosity.test.js test/prose.test.js test/wikidata.test.js test/languageIndex.test.js test/cache.test.js test/schema.test.js test/settings.test.js test/layout.test.js test/migrate.test.js test/articleContext.test.js test/depthAnalyzer.test.js test/model.test.js test/card.test.js test/cardError.test.js test/diagnostics.test.js test/report.test.js test/locales.test.js",
+    "test:live": "node --test test/live.test.js",
+    "test:browser": "node pptr-test.mjs",
+    "test:ux": "node pptr-uxsweep.mjs",
+    "test:settings": "node pptr-setsweep.mjs",
+    "test:pages": "node pptr-pkgpages.mjs",
+    "test:rate": "node pptr-ratesweep.mjs",
+    "test:error": "node pptr-errsweep.mjs",
+    "test:report": "node pptr-reportsweep.mjs",
+    "test:a11y": "node pptr-a11ysweep.mjs",
+    "test:polish": "node pptr-polishsweep.mjs",
+    "shots": "node pptr-shots.mjs",
+    "shots:welcome": "node pptr-welcomeshots.mjs && node scripts/frame-shots.mjs && node scripts/optimise-shots.mjs",
+    "shots:about": "node pptr-about.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.1",
+    "linkedom": "^0.18.5",
+    "puppeteer": "^25.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intactdots/wikiweigher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/intactdots/wikiweigher/issues"
+  },
+  "homepage": "https://github.com/intactdots/wikiweigher",
+  "license": "Apache-2.0"
+}
