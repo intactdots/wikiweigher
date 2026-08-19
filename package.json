@@ -26,9 +26,9 @@
     "shots:about": "node pptr-about.mjs"
   },
   "devDependencies": {
-    "esbuild": "^0.28.1",
-    "linkedom": "^0.18.5",
-    "puppeteer": "^25.2.0"
+    "esbuild": "^0.28.2",
+    "linkedom": "^0.18.13",
+    "puppeteer": "^25.7.0"
   },
   "repository": {
     "type": "git",
