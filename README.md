@@ -52,16 +52,24 @@ exists in every language with identical content.
 
 ## Install
 
-[**Install from the Chrome Web Store**](https://chromewebstore.google.com/detail/liepeplciapidcddoaihbemdhgijceja)
+| Browser | Install from | Status |
+| --- | --- | --- |
+| Chrome | [Chrome Web Store](https://chromewebstore.google.com/detail/liepeplciapidcddoaihbemdhgijceja) | Published, v1.0.0 |
+| Firefox | Firefox Add-ons | In review |
+| Edge | [Chrome Web Store](https://chromewebstore.google.com/detail/liepeplciapidcddoaihbemdhgijceja) | Works after allowing extensions from other stores |
+| Brave, Vivaldi | [Chrome Web Store](https://chromewebstore.google.com/detail/liepeplciapidcddoaihbemdhgijceja) | Works as is |
+| Opera | [Chrome Web Store](https://chromewebstore.google.com/detail/liepeplciapidcddoaihbemdhgijceja) | Needs Opera's Install Chrome Extensions add-on |
 
 Or build it yourself:
 
 ```bash
-npm install && npm run build
+npm install && npm run build          # chrome, loads from the repository root
+npm run build:firefox                 # firefox, writes firefox/
 ```
 
-Then load this folder at `chrome://extensions` with Developer mode on, and open a Wikipedia
-article that exists in several languages.
+Load the folder at `chrome://extensions` with Developer mode on, or at
+`about:debugging` on Firefox, then open a Wikipedia article that exists in several
+languages.
 
 ## When something breaks
 
