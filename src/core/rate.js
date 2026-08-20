@@ -1,4 +1,5 @@
 export const STORE_ID = 'liepeplciapidcddoaihbemdhgijceja';
+export const AMO_SLUG = '';
 export const RATE_DEFAULTS = { runs: 0, next: 5, done: false };
 
 function num(v, fb) {
@@ -9,8 +10,8 @@ export function recordRun(r) {
   return { ...r, runs: num(r.runs, 0) + 1 };
 }
 
-export function published() {
-  return STORE_ID.length > 0;
+export function published(gecko = false) {
+  return gecko ? AMO_SLUG.length > 0 : STORE_ID.length > 0;
 }
 
 export function shouldPrompt(r, storeReady = published()) {
@@ -30,8 +31,11 @@ export function rated(r) {
   return { ...r, done: true };
 }
 
-export function reviewsUrl() {
-  return published() ? 'https://chromewebstore.google.com/detail/' + STORE_ID + '/reviews' : '';
+export function reviewsUrl(gecko = false) {
+  if (!published(gecko)) return '';
+  return gecko
+    ? 'https://addons.mozilla.org/firefox/addon/' + AMO_SLUG + '/reviews/'
+    : 'https://chromewebstore.google.com/detail/' + STORE_ID + '/reviews';
 }
 
 export async function getRate(store) {

@@ -2,6 +2,7 @@ import { getSettings, setSettings, presetOf, PRESET_WEIGHT } from '../settings/s
 import { migrate } from '../settings/migrate.js';
 import { accentHex } from '../ui/accents.js';
 import { applyI18n } from '../ui/i18nDom.js';
+import { ext as chrome } from '../core/ext.js';
 
 const store = chrome.storage.local;
 const enabled = document.getElementById('enabled');

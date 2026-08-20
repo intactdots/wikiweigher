@@ -32,6 +32,12 @@ jobs:
         run: node -e "const s=require('fs').readFileSync('dist/content.js','utf8');if(/^\s*\/\//m.test(s))throw new Error('comment left in bundle')"
       - name: Package resolves every referenced file
         run: node scripts/package.mjs
+      - name: Firefox target builds
+        run: npm run build:firefox
+      - name: Firefox port holds
+        run: node --test test/firefox-port.test.js
+      - name: Firefox package passes web-ext lint
+        run: npx --yes web-ext lint --source-dir firefox
       - name: Workflows and issue forms are valid
         run: |
           python -m pip install --quiet pyyaml

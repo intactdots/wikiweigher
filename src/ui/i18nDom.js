@@ -1,3 +1,4 @@
+import { ext as chrome } from '../core/ext.js';
 const RTL = new Set(['ar', 'fa', 'he', 'ur', 'ps', 'sd', 'ckb', 'yi', 'dv']);
 
 export function msg(key, params) {

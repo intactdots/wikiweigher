@@ -1,6 +1,7 @@
 import { getSettings } from '../settings/settings.js';
 import { migrate } from '../settings/migrate.js';
 import { accentHex } from '../ui/accents.js';
+import { ext as chrome } from '../core/ext.js';
 
 const store = chrome.storage.local;
 

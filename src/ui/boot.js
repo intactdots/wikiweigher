@@ -1,3 +1,4 @@
+var chrome = globalThis.browser ?? globalThis.chrome;
 var wwShown = false;
 
 function wwRecord(level, msg) {

@@ -1053,6 +1053,7 @@
   }
 
   var STORE_ID = "liepeplciapidcddoaihbemdhgijceja";
+  var AMO_SLUG = "";
   var RATE_DEFAULTS = { runs: 0, next: 5, done: false };
   function num(v2, fb) {
     return typeof v2 === "number" && isFinite(v2) ? v2 : fb;
@@ -1060,8 +1061,8 @@
   function recordRun(r) {
     return { ...r, runs: num(r.runs, 0) + 1 };
   }
-  function published() {
-    return STORE_ID.length > 0;
+  function published(gecko2 = false) {
+    return gecko2 ? AMO_SLUG.length > 0 : STORE_ID.length > 0;
   }
   function shouldPrompt(r, storeReady = published()) {
     if (!storeReady) return false;
@@ -1076,8 +1077,9 @@
   function rated(r) {
     return { ...r, done: true };
   }
-  function reviewsUrl() {
-    return published() ? "https://chromewebstore.google.com/detail/" + STORE_ID + "/reviews" : "";
+  function reviewsUrl(gecko2 = false) {
+    if (!published(gecko2)) return "";
+    return gecko2 ? "https://addons.mozilla.org/firefox/addon/" + AMO_SLUG + "/reviews/" : "https://chromewebstore.google.com/detail/" + STORE_ID + "/reviews";
   }
   async function getRate(store3) {
     const obj = await store3.get("wikiweigherRate");
@@ -1127,13 +1129,16 @@
     return out;
   }
 
+  var ext = globalThis.browser ?? globalThis.chrome;
+  var gecko = String(ext?.runtime?.getURL?.("") || "").startsWith("moz-extension://");
+
   var TTL = 7 * 24 * 60 * 60 * 1e3;
   var RUN_TIMEOUT = 45e3;
   var CANDIDATE_CAP = 50;
   var MAJOR = ["en", "de", "fr", "es", "ja", "ru", "it", "zh", "pt", "fa", "ar", "pl", "nl", "uk", "sv", "vi", "id", "ko", "tr", "fi", "cs", "hu", "ca", "sr", "ro", "no", "he", "bg", "da", "simple", "el", "hi", "th", "eu", "sk", "et", "be", "ml", "la", "ur", "hr", "lt", "sl", "az"];
   var HOST_ID = "wikiweigher-host";
-  var store2 = typeof chrome !== "undefined" && chrome.storage && chrome.storage.local || null;
-  var MANIFEST = typeof chrome !== "undefined" && chrome.runtime && chrome.runtime.getManifest ? chrome.runtime.getManifest() : { version: "?" };
+  var store2 = typeof ext !== "undefined" && ext.storage && ext.storage.local || null;
+  var MANIFEST = typeof ext !== "undefined" && ext.runtime && ext.runtime.getManifest ? ext.runtime.getManifest() : { version: "?" };
   install();
   setStore(store2);
   debug.info("boot", "v" + MANIFEST.version, typeof location !== "undefined" ? location.hostname : "");
@@ -1220,13 +1225,13 @@
       },
       onReport: () => {
         try {
-          chrome.runtime.sendMessage({ type: "open-support" });
+          ext.runtime.sendMessage({ type: "open-support" });
         } catch (e) {
           debug.error("report open failed", e);
         }
       },
       onRate: async () => {
-        const url = reviewsUrl();
+        const url = reviewsUrl(gecko);
         if (url) window.open(url, "_blank", "noopener");
         state.ratePrompt = false;
         if (store2) await setRate(rated(await getRate(store2)), store2);
@@ -1418,7 +1423,7 @@
     if (store2) {
       const r = recordRun(await getRate(store2));
       await setRate(r, store2);
-      state.ratePrompt = shouldPrompt(r);
+      state.ratePrompt = shouldPrompt(r, published(gecko));
     }
     draw(host, state, handlers);
     const model = buildModel(state);
@@ -1438,8 +1443,8 @@
     });
   }
   function watchSettings() {
-    if (!store2 || typeof chrome === "undefined" || !chrome.storage || !chrome.storage.onChanged) return;
-    chrome.storage.onChanged.addListener((changes, area) => {
+    if (!store2 || typeof ext === "undefined" || !ext.storage || !ext.storage.onChanged) return;
+    ext.storage.onChanged.addListener((changes, area) => {
       if (area !== "local" || !changes.settings) return;
       const s = changes.settings.newValue || {};
       const old = changes.settings.oldValue || {};

@@ -23,7 +23,12 @@
     "test:polish": "node pptr-polishsweep.mjs",
     "shots": "node pptr-shots.mjs",
     "shots:welcome": "node pptr-welcomeshots.mjs && node scripts/frame-shots.mjs && node scripts/optimise-shots.mjs",
-    "shots:about": "node pptr-about.mjs"
+    "shots:about": "node pptr-about.mjs",
+    "build:firefox": "node scripts/build-firefox.mjs",
+    "test:firefox": "npm run build:firefox && node --test test/firefox-port.test.js",
+    "lint:firefox": "npm run build:firefox && web-ext lint --source-dir firefox",
+    "test:firefox:live": "npm run build:firefox && node --test test/firefox-live.test.js",
+    "pack:amo": "node scripts/build-firefox.mjs --zip --source"
   },
   "devDependencies": {
     "esbuild": "^0.28.1",
