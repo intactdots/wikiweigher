@@ -11,7 +11,8 @@
 It measures the leading language versions of the article you are on and names the strongest.
 
 [![CI](https://github.com/intactdots/wikiweigher/actions/workflows/ci.yml/badge.svg)](https://github.com/intactdots/wikiweigher/actions/workflows/ci.yml)
-[![Version](https://img.shields.io/badge/version-1.0.0-blue)](CHANGELOG.md)
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/liepeplciapidcddoaihbemdhgijceja?label=chrome%20web%20store&color=blue)](https://chromewebstore.google.com/detail/liepeplciapidcddoaihbemdhgijceja)
+[![Version](https://img.shields.io/badge/changelog-1.0.0-blue)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue)](LICENSE)
 [![Dependencies](https://img.shields.io/badge/runtime%20dependencies-none-blue)](package.json)
 
@@ -51,7 +52,9 @@ exists in every language with identical content.
 
 ## Install
 
-Build it yourself:
+[**Install from the Chrome Web Store**](https://chromewebstore.google.com/detail/liepeplciapidcddoaihbemdhgijceja)
+
+Or build it yourself:
 
 ```bash
 npm install && npm run build
