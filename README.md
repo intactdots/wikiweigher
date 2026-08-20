@@ -54,11 +54,11 @@ exists in every language with identical content.
 
 | Browser | Install from | Status |
 | --- | --- | --- |
-| Chrome | [Chrome Web Store](https://chromewebstore.google.com/detail/liepeplciapidcddoaihbemdhgijceja) | Published, v1.0.0 |
-| Firefox | Firefox Add-ons | In review |
-| Edge | [Chrome Web Store](https://chromewebstore.google.com/detail/liepeplciapidcddoaihbemdhgijceja) | Works after allowing extensions from other stores |
-| Brave, Vivaldi | [Chrome Web Store](https://chromewebstore.google.com/detail/liepeplciapidcddoaihbemdhgijceja) | Works as is |
-| Opera | [Chrome Web Store](https://chromewebstore.google.com/detail/liepeplciapidcddoaihbemdhgijceja) | Needs Opera's Install Chrome Extensions add-on |
+| <img src="docs/browsers/chrome.svg" width="18" height="18" alt="Chrome"> Chrome | [Chrome Web Store](https://chromewebstore.google.com/detail/liepeplciapidcddoaihbemdhgijceja) | Published, v1.0.0 |
+| <img src="docs/browsers/firefox.svg" width="18" height="18" alt="Firefox"> Firefox | Firefox Add-ons | In review |
+| <img src="docs/browsers/edge.svg" width="18" height="18" alt="Edge"> Edge | [Chrome Web Store](https://chromewebstore.google.com/detail/liepeplciapidcddoaihbemdhgijceja) | Works after allowing extensions from other stores |
+| <img src="docs/browsers/brave.svg" width="18" height="18" alt="Brave"> Brave, <img src="docs/browsers/vivaldi.svg" width="18" height="18" alt="Vivaldi"> Vivaldi | [Chrome Web Store](https://chromewebstore.google.com/detail/liepeplciapidcddoaihbemdhgijceja) | Works as is |
+| <img src="docs/browsers/opera.svg" width="18" height="18" alt="Opera"> Opera | [Chrome Web Store](https://chromewebstore.google.com/detail/liepeplciapidcddoaihbemdhgijceja) | Needs Opera's Install Chrome Extensions add-on |
 
 Or build it yourself:
 
@@ -95,5 +95,11 @@ reading, with references removed from the count and every figure shown next to t
 
 Wikiweigher is an independent, unofficial extension. It is not affiliated with, endorsed by,
 or sponsored by the Wikimedia Foundation.
+
+Browser logos are trademarks of their respective owners and appear here only to identify the
+browsers Wikiweigher runs in. Files from Wikimedia Commons: Chrome (Google) and Opera (Opera)
+public domain, Edge (Microsoft Corporation) MIT, Firefox (Mozilla Corporation) and Brave
+(Brave Software, Inc.) MPL-2.0, Vivaldi (Vivaldi Technologies)
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 [Contributing](CONTRIBUTING.md) &middot; [Security](SECURITY.md) &middot; Apache-2.0, &copy; 2026 Intactdots
