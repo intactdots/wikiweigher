@@ -2,11 +2,15 @@ node_modules/
 .artifacts/
 *.log
 .package/
+firefox/
 submission/
 
 # Store submission material and brand exploration. Kept on disk, not published.
 store/LISTING.md
 store/SUBMISSION-STEPS.md
+store/AMO-LISTING.md
+store/AMO-SUBMISSION-STEPS.md
+store/amo-source-*.zip
 store/logo-concept/
 store/promo/
 store/screenshots/2-*.png

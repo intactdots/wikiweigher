@@ -5,6 +5,7 @@ import { ACCENTS, accentHex } from '../ui/accents.js';
 import { reviewsUrl, published } from '../core/rate.js';
 import { reportUrl, repoUrl, mailtoUrl, mergeLogs, LOG_KEYS } from '../core/report.js';
 import { applyI18n, msg } from '../ui/i18nDom.js';
+import { ext as chrome, gecko } from '../core/ext.js';
 
 const store = chrome.storage.local;
 
@@ -94,7 +95,7 @@ async function renderAbout() {
   document.getElementById('ab-version').textContent = 'v' + m.version;
   document.getElementById('ab-source').href = repoUrl();
   const rate = document.getElementById('ab-rate');
-  if (published()) rate.href = reviewsUrl();
+  if (published(gecko)) rate.href = reviewsUrl(gecko);
   else rate.closest('.vr').hidden = true;
   const box = document.getElementById('ab-changelog');
   try {

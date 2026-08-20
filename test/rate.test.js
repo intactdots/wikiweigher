@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { RATE_DEFAULTS, recordRun, shouldPrompt, later, never, rated, reviewsUrl, published, STORE_ID } from '../src/core/rate.js';
+import { RATE_DEFAULTS, recordRun, shouldPrompt, later, never, rated, reviewsUrl, published, STORE_ID, AMO_SLUG } from '../src/core/rate.js';
 
 const LISTED = true;
 
@@ -56,4 +56,15 @@ test('malformed stored state falls back safely', () => {
   assert.equal(shouldPrompt({ ...RATE_DEFAULTS, ...null }, LISTED), false);
   const r = recordRun({ ...RATE_DEFAULTS, ...{ runs: 'x' } });
   assert.equal(typeof r.runs, 'number');
+});
+
+test('a gecko build never points at the chrome web store', () => {
+  const url = reviewsUrl(true);
+  if (AMO_SLUG) {
+    assert.match(url, /^https:\/\/addons\.mozilla\.org\/firefox\/addon\/.+\/reviews\/$/);
+  } else {
+    assert.equal(url, '', 'with no listing yet there is nothing to link');
+    assert.equal(published(true), false);
+  }
+  assert.doesNotMatch(url, /chromewebstore/);
 });

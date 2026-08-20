@@ -10,8 +10,9 @@ import { pool } from '../core/api.js';
 import { renderCard } from '../ui/card.js';
 import { debug, install, setStore, setStatus } from '../core/debug.js';
 import { getQualityBadges, dbnameFor } from '../core/wikidata.js';
-import { getRate, setRate, recordRun, shouldPrompt, later, never, rated, reviewsUrl } from '../core/rate.js';
+import { getRate, setRate, recordRun, shouldPrompt, later, never, rated, reviewsUrl, published } from '../core/rate.js';
 import { diffFromDefaults, browserLabel, osLabel } from '../core/diagnostics.js';
+import { ext as chrome, gecko } from '../core/ext.js';
 
 const TTL = 7 * 24 * 60 * 60 * 1000;
 const RUN_TIMEOUT = 45000;
@@ -102,7 +103,7 @@ function makeHandlers(host, state) {
       }
     },
     onRate: async () => {
-      const url = reviewsUrl();
+      const url = reviewsUrl(gecko);
       if (url) window.open(url, '_blank', 'noopener');
       state.ratePrompt = false;
       if (store) await setRate(rated(await getRate(store)), store);
@@ -284,7 +285,7 @@ async function runInner() {
   if (store) {
     const r = recordRun(await getRate(store));
     await setRate(r, store);
-    state.ratePrompt = shouldPrompt(r);
+    state.ratePrompt = shouldPrompt(r, published(gecko));
   }
   draw(host, state, handlers);
 

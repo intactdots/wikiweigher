@@ -1,5 +1,6 @@
 import { getSettings, setSettings } from './settings/settings.js';
 import { setStore, setKey, install } from './core/debug.js';
+import { ext as chrome } from './core/ext.js';
 
 const store = chrome.storage.local;
 const UPDATED_KEY = 'wikiweigherUpdated';
