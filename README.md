@@ -12,7 +12,7 @@ It measures the leading language versions of the article you are on and names th
 
 [![CI](https://github.com/intactdots/wikiweigher/actions/workflows/ci.yml/badge.svg)](https://github.com/intactdots/wikiweigher/actions/workflows/ci.yml)
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/liepeplciapidcddoaihbemdhgijceja?label=chrome%20web%20store&color=blue)](https://chromewebstore.google.com/detail/liepeplciapidcddoaihbemdhgijceja)
-[![Version](https://img.shields.io/badge/changelog-1.0.0-blue)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue)](LICENSE)
 [![Dependencies](https://img.shields.io/badge/runtime%20dependencies-none-blue)](package.json)
 
